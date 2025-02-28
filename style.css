@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 236);
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2rem;
+}
+#text{
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: rgb(168, 71, 100);
+}
+.green{
+    background-color: rgb(54, 135, 145);
+}
+.orange{
+    background-color: rgb(211, 122, 20);
+}
+.blue{
+    background-color: rgb(96, 96, 207);
+}
+.flash{
+    background-color: blanchedalmond;
+}
+.greenFlash{
+    background-color: greenyellow;
+}
+#HighScore {
+    position: absolute;
+    top: 60px; 
+    right: 30px; 
+    font-size: 1.5rem;
+    color: #333;
+}
+span{
+    font-weight: 800;
+}
